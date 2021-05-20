@@ -30,7 +30,7 @@ print('Type D: ', type(d))
 # Write a program which prompts the user for a Celsius temperature, 
 # convert the temperature to Fahrenheit, and print out theconverted temperature.
 '''To conver from temperature to fahrenheit
-    Formula = (Temp/5) * 9 + 32 '''
+    Formula = (Temp/5) * 9 + 32  '''
     
 temp = input('Enter a temparature: \n')
 formula = (int(temp)/5) * 9 + 32
