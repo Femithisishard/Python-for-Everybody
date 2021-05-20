@@ -1,0 +1,38 @@
+# Write a program to prompt the user for hours and rate per
+# hour to compute gross pay.
+
+hours = input('Enter number of hours worked \n')
+rate = input('Enter hourly rate\n')
+grossPay = int(hours) * int(rate)
+print('Total pay: ', grossPay)
+
+# Exercise 4: Assume that we execute the following assignment state-ments:
+width = 17
+height = 12.0
+# For each of the following expressions, write the value of the expression and the
+# type (of the value of the expression).
+# 1. width//2
+# 2. width/2.0
+# 3. height/3
+# 4. 1 + 2 * 5
+# Use the Python interpreter to check your answers.
+
+a = width//2
+b = width/2.0
+c = height/3
+d = 1 + 2 * 5
+print('a: ', a, 'b: ', b, 'c: ', c, 'd: ', d)
+print('Type A: ', type(a))
+print('Type B: ', type(b))
+print('Type C: ', type(c))
+print('Type D: ', type(d))
+
+# Write a program which prompts the user for a Celsius temperature, 
+# convert the temperature to Fahrenheit, and print out theconverted temperature.
+'''To conver from temperature to fahrenheit
+    Formula = (Temp/5) * 9 + 32 '''
+    
+temp = input('Enter a temparature: \n')
+formula = (int(temp)/5) * 9 + 32
+
+print(temp,'degree celcius converted to fahrenheit equal', formula, 'degree fahrenheit')
